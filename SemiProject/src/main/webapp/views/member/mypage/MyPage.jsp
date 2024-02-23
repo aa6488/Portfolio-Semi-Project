@@ -2,54 +2,34 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
+
 <%@ include file="../../common/head.jsp"%>
+<link rel="stylesheet" href="/resources/css/member/MyPage.css">
+<script src="/resources/js/member/member.js"></script>
 </head>
-<body>
+<body class="Main_body">
 	<%@ include file="../../common/header.jsp"%>
 	<%@ include file="../../common/nav.jsp"%>
 
 
-<div class="container">
-	<div class = MyPageTitle_area>
-	<div class="MyPageTitle" >
-		<h2 class="tit">마이페이지</h2>
-		<ul class="menu">
-			<li class="m1">
-				<a href="/MyPageForm.do"  class="Main_a">
-					<span>내정보</span>
-				</a>
-			</li>
-			<li class="m2" >
-				<a href="#"  class="Main_a">
-					<span>예약 확인</span>
-				</a>
-			</li>
-			<li class="m3">
-				<a href="#"  class="Main_a">
-					<span>문의 내역</span>
-				</a>
-			</li>
-			<li class="m4">
-				<a href="#"  class="Main_a">
-					<span>탈퇴 요청</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-	</div>
+<div class="main-container">
+	<div class="container-center">
+	<%@ include file="../../common/sidebar.jsp"%>
+	
 	<div class="contents">
-	<div >
+	<div class="table-title" >
 		<h4>내 정보</h4>
 	</div>
-	<table class="tableTypeA tableJoinForm tableUserInfo2">
+<br>
+	<table class="mypage-table">
 		<colgroup>
 			<col width="13%" class="col1">
 			<col class="col2">
 		</colgroup>
-		<tbody>
+		<tbody class = "mypage-tbody">
 			<tr class="tr_info">
 				<th>성명</th>
 				<td><%=session.getAttribute("name") %></td>
@@ -71,17 +51,32 @@
 				<td><%=session.getAttribute("birth") %></td>
 			</tr>
 			<tr class="tr_info">
+				<th>우편번호</th>
+				<td class="mypage_addr"><%=session.getAttribute("addr") %></td>
+			</tr>
+			<tr class="tr_info">
 				<th>주소</th>
-				<td><%=session.getAttribute("addr") %></td>
+				<td><%=session.getAttribute("addr1") %>&nbsp;<%=session.getAttribute("addr2") %></td>
 			</tr>
 			<tr class="tr_info">
 				<th>마일리지</th>
 				<td><%=session.getAttribute("mlg") %></td>
 			</tr>
+			<tr class="tr_info">
+				<th>멤버십 등급</th>
+				<td><%=session.getAttribute("membership") %></td>
+			</tr>
+			<tr class="tr_info">
+				<th>누적 숙박금액</th>
+				<td><%=session.getAttribute("accamount") %></td>
+			</tr>
 		</tbody>
 	</table>
-	<div class="UpdateBtn">
-		<a href="/MemberUpdateForm.do"  class="Main_a"><span>정보 수정</span></a>
+	<br>
+		<div id="btn-group">
+			<button class="left-btn" onclick="location.href='/MemberUpdateForm.do' "
+			>정보 수정</button>
+		</div>
 	</div>
 	</div>
 </div>

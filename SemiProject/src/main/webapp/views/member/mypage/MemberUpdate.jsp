@@ -5,50 +5,33 @@
 <head>
 <meta charset="UTF-8">
 <%@ include file="../../common/head.jsp"%>
+<link rel="stylesheet" href="/resources/css/member/MyPage.css">
+<script src="/resources/js/member/member.js"></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script src="/resources/js/member/memberUpdate.js"></script>
 </head>
-<body>
+<body class="Main_body">
 	<%@ include file="../../common/header.jsp"%>
 	<%@ include file="../../common/nav.jsp"%>
 	
-<div class="container">
-	<div class = MyPageTitle_area>
-	<div class="MyPageTitle" >
-		<h2 class="tit">마이페이지</h2>
-		<ul class="menu">
-			<li class="m1">
-				<a href="/MyPageForm.do"  class="Main_a">
-					<span>내정보</span>
-				</a>
-			</li>
-			<li class="m2">
-				<a href="#"  class="Main_a">
-					<span>예약 확인</span>
-				</a>
-			</li>
-			<li class="m3">
-				<a href="#"  class="Main_a">
-					<span>문의 내역</span>
-				</a>
-			</li>
-			<li class="m4">
-				<a href="#"  class="Main_a">
-					<span>탈퇴 요청</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-	</div>
+<div class="main-container">
+	<div class="container-center">
+	<%@ include file="../../common/sidebar.jsp"%>
+	
 	<div class="contents">
-	<div >
-		<h4>개인 정보 수정</h4>
+	<div class="table-title">
+		<h4>프로필 수정</h4>
+	</div>
+		<div>
+		<h4>개인정보</h4>
 	</div>
 	<form action="MemberUpdate.do" method="POST">
-	<table class="tableTypeA tableJoinForm tableUserInfo2">
+	<table class="mypage-table">
 		<colgroup>
 			<col width="13%" class="col1">
 			<col class="col2">
 		</colgroup>
-		<tbody>
+		<tbody class = "mypage-tbody">
 			<tr class="tr_info">
 				<th>성명</th>
 				<td><input type="text" id="id" name="name" value="${sessionScope.name}" disabled></td>
@@ -65,13 +48,18 @@
 				<th>이메일</th>
 				<td><input type="text" id="email" name="email" value="${sessionScope.email}"></td>
 			</tr>
+
+			<tr class="tr_info">
+				<th>우편번호</th>
+				<td><input type="text" id="addr" name="addr" value="${sessionScope.addr}">&nbsp;<input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기"></td>
+			</tr>
 			<tr class="tr_info">
 				<th>주소</th>
-				<td><input type="text" id="addr" name="addr" value="${sessionScope.addr}"></td>
+				<td><input type="text" id="addr1" name="addr1" value="${sessionScope.addr1}">&nbsp;<input type="text" id="addr2" name="addr2" value="${sessionScope.addr2}"></td>
 			</tr>
 			<tr class="tr_info">
 				<th>생년월일</th>
-				<td><input type="text" id="birth" name="birth" value="${sessionScope.birth}"></td>
+				<td><input type="text" id="birth" name="birth" value="${sessionScope.birth}" disabled></td>
 			</tr>
 			<tr class="tr_info">
 				<th>마일리지</th>
@@ -79,15 +67,14 @@
 			</tr>
 		</tbody>
 	</table>
-		<button type="submit">수정</button>
-		<button type="button" onclick="back()">취소</button>
-	<div class="BtnForm">
-	<div class="UpdateBtn">
+	<br>
+<div id="btn-group">
+		<button type="submit" class="left-btn">수정</button>
+		<button type="button" class="right-btn" onclick="back()">취소</button>
 	</div>
-	<div class="CancelBtn">
-	</div>
-	</div>
+
 	</form>
+	</div>
 	</div>
 </div>
 	

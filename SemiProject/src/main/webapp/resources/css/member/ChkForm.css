@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.container {
+	padding: 5%;
+}
+
+.checkbox-container {
+	margin-bottom: 20px;
+}
+
+.custom-checkbox {
+	margin-top: 10px;
+}
+
+.left-btn {
+	width: 150px;
+	font-family: 'sejong';
+	font-size: 18px;
+	border-radius: 8px;
+	background-color: #e0a256;
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, border-color 0.3s ease, color
+		0.3s ease;
+}
+
+.left-btn:hover {
+	background-color: #d08c4d;
+}
+
+.form-control {
+	font-size: 16px;
+	border-radius: 8px;
+	border: 2px solid rgb(224, 162, 86);
+	white-space: pre-line;
+    font-family: 'Courier New', monospace;
+}
+
+.form-control:focus {
+	border-color: rgb(224, 162, 86);
+	box-shadow: 0 0 0 0.2rem rgba(224, 162, 86, 0.25);
+}
+
+.input-form {
+	background-color: #fff8e5;
+	padding: 30px;
+	border-radius: 20px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'sejong';
+    src: url('../../fonts/KingSejongInstitute-Regular.ttf');
+}
+
+.price_info {
+	display: inline-block; 
+}
+
+.roomDetailBox{
+	border: 1px solid black;
+	background-color: bisque;
+	display:inline-block
+}
+
+.roomDetailNotice{
+	font-size: smaller;
+}
+
+.roomDetailChk{
+	text-align: center;
+}
+
+.roomDetailP{
+	margin-bottom: 0px;
+}
+.R_room{
+	width: 120px;
+}
+.R_room_small{
+	width: 80px;
+}
+#datepickerRoomMenu{
+	position: fixed; 
+     display:inline;
+     width: 170px;
+     left: 20px;
+     top: 240px;
+     background-color: beige;
+}
+
+#datepickerRoom{
+	 position: fixed; 
+     display:inline;
+     width: 170px;
+     left: 20px;
+     background-color: beige;
+}
+#datepicker { 
+     position: fixed; 
+     top: 285px; 
+     right: 300px; 
+     left: 20px; 
+     display:inline;
+     z-index: 2;
+     width: 300px;
+
+ } 
+ @media screen and (max-width: 1400px) {
+    #datepicker, #datepickerRoom, #datepickerRoomMenu {display:none;}
+}
+
+#section_main{
+	background-color: beige;
+}
+
+
+
+
+
+
+
+
+
