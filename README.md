@@ -14,7 +14,7 @@
 
 <br>
 
-## 팀원소개
+## 팀원소개 & 기능
 <p align="center">
   <br>
   <img src="./images/팀원소개.jpg">
@@ -22,17 +22,6 @@
 </p>
 
 <br>
-
-## 맡은 기능
-
-<p align="center">
-  <br>
-  <img src="./images/">
-  <br>
-</p>
-
-<br>
-
 
 
 ## ERD CLOUD
@@ -59,6 +48,17 @@
 <p align="center">
   <br>
   <img src="./images/유스케이스2.jpg">
+  <br>
+</p>
+
+<br>
+
+
+## 내 기능 구현
+
+<p align="center">
+  <br>
+  <img src="./images/">
   <br>
 </p>
 
