@@ -6,6 +6,14 @@
   <br>
 </p>
 
+## 프로젝트 소개
+
+- 초특가 여기어때 프로젝트는 웹 사이트에서 호텔을 예약,결제 및 해당 호텔에대한 전반적인 설명들을 알수있는 웹 프로젝트입니다.
+  
+- 진행기간 : 2023년 11월 14일 → 2023년 12월 21일 의 기간동안 진행했습니다.
+
+<br>
+
 ## 팀원소개
 <p align="center">
   <br>
@@ -13,17 +21,19 @@
   <br>
 </p>
 
-## 프로젝트 소개
+<br>
 
-<p align="justify">
-프로젝트 개요/동기
-</p>
+## 맡은 기능
 
 <p align="center">
-GIF Images
+  <br>
+  <img src="./images/">
+  <br>
 </p>
 
 <br>
+
+
 
 ## ERD CLOUD
 <p align="center">
@@ -54,20 +64,13 @@ GIF Images
 
 <br>
 
-## 구현 기능
 
-<p align="center">
-  <br>
-  <img src="./images/">
-  <br>
-</p>
-
-<br>
 
 ## 배운 점 & 아쉬운 점
 
 <p align="justify">
-ㅁㄴㅇㅁㄴㅇ
+
+- ㅁㄴㅇㅁㄴㅇ
 </p>
 
 <br>
