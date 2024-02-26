@@ -58,7 +58,7 @@
 
 <p align="center">
   <br>
-  <img src="./images/결제영상.gif">
+  <img src="./gif/결제영상.gif">
   <br>
 </p>
 
