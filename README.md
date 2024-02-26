@@ -56,14 +56,24 @@
 
 ## 내 기능 구현
 
+#### 1. 결제기능 & 마일리지기능 & 예약여부확인 
 <p align="center">
   <br>
   <img src="./gif/결제영상.gif">
   <br>
 </p>
 
+- ㅁㄴㅇ
+
 <br>
 
+<p align="center">
+  <br>
+  <img src="./gif/결제영상.gif">
+  <br>
+</p>
+
+- ㅁㄴㅇ
 
 
 ## 배운 점 & 아쉬운 점
