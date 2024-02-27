@@ -57,33 +57,21 @@
 ## 내 기능 구현
 
 #### 1. 결제기능 & 마일리지기능 & 예약여부확인 
-<p align="center">
-  <br>
-  <img src="./gif/결제영상.gif">
-  <br>
-</p>
+- 
 
 - ㅁㄴㅇ
 
 <br>
 
 #### 2. 상단배너 예약기능
-<p align="center">
-  <br>
-  <img src="./gif/배너결제.gif">
-  <br>
-</p>
+
 
 - ㅁㄴㅇ
 
 <br>
 
 #### 3. E-SHOP 상품결제, 장바구니 , 결제완료내역
-<p align="center">
-  <br>
-  <img src="./gif/e-SHOP결제.gif">
-  <br>
-</p>
+
 
 
 - ㅁㄴㅇㅁㄴㅇ
