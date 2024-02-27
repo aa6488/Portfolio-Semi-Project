@@ -58,7 +58,7 @@
 
 #### 1.  객실소개 & 결제기능 & 마일리지기능 & 예약여부확인 
 ### 1) 홈
-|🔗 [splash](https://github.com/13oosters/project-sns-react/wiki/%F0%9F%93%83-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%83%81%EC%84%B8-%EC%84%A4%EB%AA%85#-splash)|🔗 [1. 객실,결제,마일리지]([https://github.com/13oosters/project-sns-react/wiki/%F0%9F%93%83-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%83%81%EC%84%B8-%EC%84%A4%EB%AA%85#-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80](https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/e-SHOP%EA%B2%B0%EC%A0%9C.gif))
+|🔗 [splash](https://github.com/13oosters/project-sns-react/wiki/%F0%9F%93%83-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%83%81%EC%84%B8-%EC%84%A4%EB%AA%85#-splash)|🔗 [1. 객실,결제,마일리지]([https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EA%B2%B0%EC%A0%9C%EC%98%81%EC%83%81.gif](https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/e-SHOP%EA%B2%B0%EC%A0%9C.gif))
 
 |:-:|:-:|:-:|
 |<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211331596-532f9f01-d6c5-4bf4-85dc-b86671fe4436.gif"> |<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211332483-5e5246e7-c1f7-4c6a-b6b5-8f12493a3590.gif">|<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211372489-663ede79-6011-481c-8b3c-8e944ca96d08.gif">|
