@@ -57,6 +57,7 @@
 ## 내 기능 구현
 
 #### 1.  객실소개 & 결제기능 & 마일리지기능 & 예약여부확인 
+
 |<img width="100px;" src="https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EA%B2%B0%EC%A0%9C%EC%98%81%EC%83%81.gif"> |
 
 <br/>
