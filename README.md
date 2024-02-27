@@ -57,16 +57,7 @@
 ## 내 기능 구현
 
 #### 1.  객실소개 & 결제기능 & 마일리지기능 & 예약여부확인 
-### 1) 홈
-|🔗 [splash](https://github.com/13oosters/project-sns-react/wiki/%F0%9F%93%83-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%83%81%EC%84%B8-%EC%84%A4%EB%AA%85#-splash)|🔗 [1. 객실,결제,마일리지]([https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EA%B2%B0%EC%A0%9C%EC%98%81%EC%83%81.gif](https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/e-SHOP%EA%B2%B0%EC%A0%9C.gif))
-
-|:-:|:-:|:-:|
-|<img width="390px;" src="https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EA%B2%B0%EC%A0%9C%EC%98%81%EC%83%81.gif"> |<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211332483-5e5246e7-c1f7-4c6a-b6b5-8f12493a3590.gif">|<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211372489-663ede79-6011-481c-8b3c-8e944ca96d08.gif">|
-
-|🔗 [홈 페이지](https://github.com/13oosters/project-sns-react/wiki/%F0%9F%93%83-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%83%81%EC%84%B8-%EC%84%A4%EB%AA%85#-%ED%99%88-%ED%8E%98%EC%9D%B4%EC%A7%80)
-|🔗 [검색 페이지](https://github.com/13oosters/project-sns-react/wiki/%F0%9F%93%83-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%83%81%EC%84%B8-%EC%84%A4%EB%AA%85#-%EA%B2%80%EC%83%89-%ED%8E%98%EC%9D%B4%EC%A7%80)|
-|:-:|:-:|
-|<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211334737-a8e83dea-814c-4671-a658-b9ca01b2e7bb.gif">|<img width="390px;" src="https://user-images.githubusercontent.com/74497080/211366355-8c46972a-b114-480d-8f80-f9a6d2987ff7.gif">|
+|<img width="100px;" src="https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EA%B2%B0%EC%A0%9C%EC%98%81%EC%83%81.gif"> |
 
 <br/>
 
@@ -75,15 +66,13 @@
 <br>
 
 #### 2. 상단배너 예약기능
-
-
+|<img width="100px;" src="https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EB%B0%B0%EB%84%88%EA%B2%B0%EC%A0%9C.gif"> |
 - ㅁㄴㅇ
 
 <br>
 
 #### 3. E-SHOP 상품결제, 장바구니 , 결제완료내역
-
-
+|<img width="100px;" src="https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/e-SHOP%EA%B2%B0%EC%A0%9C.gif"> |
 
 - ㅁㄴㅇㅁㄴㅇ
 <br>
