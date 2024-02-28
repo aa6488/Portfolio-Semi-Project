@@ -56,7 +56,7 @@
 
 ## 내 기능 구현
 #### 상세 기능 설명은 각 페이지별 링크 연결해두었습니다.
-#### [1.  객실소개 & 결제기능 & 마일리지기능 & 예약여부확인]()  
+#### [1.  객실소개 & 결제기능 & 마일리지기능 & 예약여부확인](https://github.com/aa6488/Portfolio-Semi-Project/wiki/%F0%9F%93%83-%EA%B8%B0%EB%8A%A5-%EC%83%81%EC%84%B8%EC%84%A4%EB%AA%85#1-%EA%B0%9D%EC%8B%A4%EC%86%8C%EA%B0%9C)  
 
 |<img width="100px;" src="https://github.com/aa6488/Portfolio-Semi-Project/blob/master/gif/%EA%B2%B0%EC%A0%9C%EC%98%81%EC%83%81.gif"> |
 
